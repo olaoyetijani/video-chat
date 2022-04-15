@@ -6,7 +6,7 @@ import { useContext } from 'react';
 
 const useStyles = makeStyles((theme) => ({
   video: {
-    height: '200px',
+    width: '550px',
     [theme.breakpoints.down('xs')]: {
       width: '300px',
     },
@@ -18,9 +18,8 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   paper: {
-    height: '50%',
     padding: '10px',
-    border: '2px solid black',
+    border: '2px solid blue',
     margin: '10px',
   }
 }));
